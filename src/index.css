@@ -1,0 +1,82 @@
+article{
+    background: red;
+    width: 350px;
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: 25px;
+
+}
+
+.todo{
+    text-align: center;
+}
+
+article{
+    background: #5CF7C9;
+    text-align: center;
+    height: 250px;
+    
+}
+
+footer{
+    margin-top: 22px;
+}
+
+.titulares{
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+    color: #3B40D4;
+    font-size: 20px;
+ 
+}
+
+ul li{
+    list-style: none;
+    text-align: left;
+    color: #880BD4;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Comic Sans MS';
+}
+
+.fa-solid {
+    
+    margin-left: 15px;
+    margin-right: 70px;
+}
+
+.App{
+    text-align: center;
+}
+
+.App_btn{ 
+    width: 100%;
+    max-width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #555a88;
+    color: white;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: transform 150ms ease, box-shadow 150ms ease;
+}
+
+.App_btn:hover{
+    transform: scale(1.1);
+    transition: transform 150ms ease;
+    box-shadow: 0 0 10px #0005;
+    transition: transform 150ms ease, box-shadow 150ms ease;
+}
+
+.tit{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
